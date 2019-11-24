@@ -15,6 +15,7 @@ Sources:
 https://www.kaggle.com/wowfattie/3rd-place
 https://www.kaggle.com/christofhenkel/how-to-preprocessing-when-using-embeddings
 https://www.kaggle.com/theoviel/improve-your-score-with-text-preprocessing-v2
+https://www.kaggle.com/c/quora-insincere-questions-classification/discussion/80568
 '''
 
 contraction_mapping = {"ain't": "is not", "aren't": "are not","can't": "cannot", "'cause": "because", "could've": "could have", "couldn't": "could not", 
