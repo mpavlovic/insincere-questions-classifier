@@ -228,7 +228,7 @@ if __name__ == '__main__':
 
     start = time.time()
     results = train_model_cv(data, hparams, build_model, tokenizer, MODELS_DATA_PATH, embedding_matrix_final,
-                             [#tf.keras.callbacks.EarlyStopping(monitor=hparams['avg_epochs_metric'], mode='auto', patience=1, verbose=1, restore_best_weights=True),
+                             [tf.keras.callbacks.EarlyStopping(monitor=hparams['avg_epochs_metric'], mode='auto', patience=1, verbose=1, restore_best_weights=True),
                               CustomAveraging(3)
                              ], 
                              RANDOM_STATE, USE_TENSORBOARD, model_to_json=False)
